@@ -1,5 +1,7 @@
 # Hardware examples
 
+This is a companion repository for the scripts communicating through the Arduino Bridge in this other repository: https://github.com/husteeri/usb-peripheral-bridge
+
 ## Serial port devices
 
 ### 7941W RFID reader/writer board
