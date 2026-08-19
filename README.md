@@ -1,6 +1,6 @@
 # Hardware examples
 
-This is a companion repository for the scripts communicating through the Arduino Bridge in this other repository: https://github.com/husteeri/usb-peripheral-bridge
+This is a companion repository for the scripts communicating through the Arduino Bridge: https://github.com/husteeri/usb-peripheral-bridge
 
 ## Serial port devices
 
