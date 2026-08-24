@@ -1,6 +1,8 @@
 # Hardware examples
 
-This is a companion repository for the scripts communicating through the Arduino Bridge: https://github.com/husteeri/usb-peripheral-bridge
+This is a companion repository for the scripts communicating through the Arduino Bridge: https://github.com/husteeri/usb-peripheral-bridge.
+
+The primary drive behind this project was the ability to quickly test, debug, and even fully control these and similar hardware circuits directly from a PC.
 
 ## Serial port devices
 
@@ -62,6 +64,28 @@ There is also a script provided for reading and writing the onboard EEPROM chip.
 This board can be supplied with voltage 2.3V to 5.5V.
 
 ![DS3231 board](DS3231.jpg)
+
+
+
+
+
+
+
+
+
+
+### HD44780 based 16x02 character LCD with I2C adapter
+
+This script initializes the HD44780 1602 LCD module over the I2C bus via the USB Peripheral Bridge and writes text to the display.
+
+The PCF8574 I/O expander chip handles the I2C interface by controlling the display in 4-bit mode alongside the Enable, Register Select, and Backlight pins. You can adjust the contrast of the screen using the small blue potentiometer on the back of the I2C adapter board if the characters appear faint or blocked.
+
+The script relies on the low-level I2C protocol specification, sending raw byte commands to control the display sequence reliably from a PC.
+
+This LCD module can be powered with voltages ranging from 3.3V to 5.0V depending on your system setup.
+
+![44780_back.jpg](44780_back.jpg)
+![44780_front.jpg](44780_front.jpg)
 
 
 
