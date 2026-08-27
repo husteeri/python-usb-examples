@@ -4,6 +4,8 @@ This is a companion repository for the scripts communicating through the Arduino
 
 The primary drive behind this project was the ability to quickly test, debug, and even fully control these and similar hardware circuits directly from a PC.
 
+All the examples included in this repository demonstrate the usage of the `Bridge` class, which handles communication using a simplified and reduced set of methods.
+
 ## Serial port devices
 
 ### 7941W RFID reader/writer board
