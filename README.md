@@ -4,7 +4,7 @@ This is a companion repository for the scripts communicating through the Arduino
 
 The primary drive behind this project was the ability to quickly test, debug, and even fully control these and similar hardware circuits directly from a PC.
 
-All the examples included in this repository demonstrate the usage of the `Bridge` class, which handles communication using a simplified and reduced set of methods.
+All the examples included in this repository demonstrate the usage of the `Bridge` class, which handles communication using a simplified and reduced set of methods. The easiest way to use the class is just putting it in a subfolder. It depends on the pyserial package: installation is to be done by 'pip install pyserial'.
 
 ## Serial port devices
 
